@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 int hour = tp.getCurrentHour();
                 int min = tp.getCurrentMinute();
 
-                if (min < 11){
+                if (min < 10){
                     msg = msg + hour + ":0" + min;
                 } else {
                     msg = msg + hour + ":" + min;
